@@ -1,0 +1,73 @@
+header {
+  margin-top: 70px;
+}
+header img {
+  width: 500px;
+}
+
+main .book-list .carousel .book-item {
+  width: 350px;
+}
+main .book-list .carousel .book-item img {
+  width: 170px;
+}
+main .book-list button.carousel-control-next {
+  opacity: 2 !important;
+  right: -20px;
+  border-radius: 50%;
+  height: 40px;
+  width: auto;
+  padding: 1px 3px 1px 6px;
+  top: 100px;
+  background-color: white;
+}
+main .book-list button.carousel-control-prev {
+  opacity: 2 !important;
+  left: -20px;
+  border-radius: 50%;
+  height: 40px;
+  width: auto;
+  padding: 1px 6px 1px 3px;
+  top: 100px;
+  background-color: white;
+}
+main .book-list button span.carousel-control-next-icon, main .book-list button span.carousel-control-prev-icon {
+  filter: brightness(0);
+}
+
+.intro {
+  height: 100%;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th {
+  color: #fff;
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+.table-scroll {
+  border-radius: .5rem;
+}
+
+.table-scroll table thead th {
+  font-size: 1.25rem;
+}
+thead {
+  top: 0;
+  position: sticky;
+}
+
+@media (max-width: 767px) {
+  header {
+    margin-top: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */

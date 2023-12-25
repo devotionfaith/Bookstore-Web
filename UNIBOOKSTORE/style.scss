@@ -1,0 +1,57 @@
+header {
+  margin-top: 70px;
+
+  img {
+    width: 500px;
+  }
+}
+
+main {
+  .book-list {
+    .carousel {
+      .book-item {
+        width: 350px;
+        img {
+          width: 170px;
+        }
+      }
+    }
+
+    button {
+      &.carousel-control-next {
+        opacity: 2 !important;
+        right: -20px;
+        border-radius: 50%;
+        height: 40px;
+        width: auto;
+        padding: 1px 3px 1px 6px;
+        top: 100px;
+        background-color: white;
+      }
+      &.carousel-control-prev {
+        opacity: 2 !important;
+        left: -20px;
+        border-radius: 50%;
+        height: 40px;
+        width: auto;
+        padding: 1px 6px 1px 3px;
+        top: 100px;
+        background-color: white;
+      }
+
+      span {
+        &.carousel-control-next-icon,
+        &.carousel-control-prev-icon {
+          filter: brightness(0);
+        }
+      }
+    }
+  }
+}
+
+//Responsive
+@media (max-width: 767px) {
+  header {
+    margin-top: 0px;
+  }
+}
